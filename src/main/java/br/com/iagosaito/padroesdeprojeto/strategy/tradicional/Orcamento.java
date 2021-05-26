@@ -1,4 +1,4 @@
-package br.com.iagosaito.padroesdeprojeto.strategy;
+package br.com.iagosaito.padroesdeprojeto.strategy.tradicional;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
