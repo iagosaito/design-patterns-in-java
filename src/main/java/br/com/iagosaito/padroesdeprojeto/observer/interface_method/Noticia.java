@@ -11,7 +11,7 @@ public class Noticia {
     private TipoNoticia tipoNoticia;
     private String corpoNoticia;
 
-    enum TipoNoticia {
+    public enum TipoNoticia {
         POLITICA, ESPORTE
     }
 }
