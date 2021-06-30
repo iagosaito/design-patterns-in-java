@@ -2,7 +2,11 @@ package br.com.iagosaito.padroesdeprojeto.estruturais.decorator;
 
 import java.math.BigDecimal;
 
-public class PizzaCalabresa implements Pizza {
+public class PizzaCalabresa extends SaborPizza {
+
+    public PizzaCalabresa(final Pizza pizza) {
+        this.pizza = pizza;
+    }
 
     private static final BigDecimal PRECO_CALABRESA = BigDecimal.TEN;
 
@@ -13,6 +17,6 @@ public class PizzaCalabresa implements Pizza {
 
     @Override
     public String getDescricao() {
-        return "Calabresa acebolada muito top";
+        return pizza.getDescricao() + " e calabresa acebolada muito top";
     }
 }
