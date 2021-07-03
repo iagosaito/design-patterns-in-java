@@ -5,12 +5,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class EmpresaTerceira implements Empregado {
+public class Empresa implements Empregado {
 
     private final String nome;
     private final List<Empregado> empregados;
 
-    public EmpresaTerceira(String nome) {
+    public Empresa(String nome) {
         this.nome = nome;
         this.empregados = new ArrayList<>();
     }

@@ -1,10 +1,12 @@
 package br.com.iagosaito.padroesdeprojeto.estruturais.composite;
 
-import org.springframework.stereotype.Component;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 
 import java.math.BigDecimal;
 
-@Component
+@AllArgsConstructor
+@Builder
 public class EngenheiroSoftware implements Empregado {
 
     private String nome;
